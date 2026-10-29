@@ -1,0 +1,3 @@
+outcome,metric,participants,point,ci_low,ci_high,asymmetry_supported,favored_direction_if_supported
+valence,participant_MAE_imagery_to_video_minus_video_to_imagery,45,0.013855479170954633,-0.044519693238442,0.07403366244681756,False,none
+liking,participant_MAE_imagery_to_video_minus_video_to_imagery,45,0.02267262244070658,-0.059759445810926175,0.10746581822989591,False,none

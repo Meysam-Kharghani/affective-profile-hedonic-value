@@ -1,0 +1,12 @@
+analysis,status,analysis_cohort,notes
+LOPO category vs affective profile,PRIMARY,"53 participants; 2,225 complete-case trials",Validated category/stimulus mapping
+Held-out stimulus,PRIMARY,53 participants; 21 stimulus codes,Validated mapping
+Double-heldout participant + stimulus,PRIMARY,53 participants; 21 stimulus codes,Validated mapping
+Within-person centered sensitivity,PRIMARY,"53 participants; 2,225 trials",Validated mapping
+Low-dimensional sensitivity,PRIMARY,"53 participants; 2,225 trials",Reanalyzed after label reconstruction
+Cross-context imagery↔video transfer,PRIMARY_CONTEXT_SUBSET,"45 participants; 1,890 trials; 945 imagery + 945 video",Context recovered from EDF trigger metadata
+Trait-family stability,SECONDARY_CONTEXT_SUBSET,"45 participants; 1,890 trials",split-half analysis
+Relative bidirectionality by participant×context,DESCRIPTIVE_CONTEXT_SUBSET,"45 participants; 1,890 trials",descriptive analysis
+Model-implied context surfaces,DESCRIPTIVE_CONTEXT_SUBSET,"45 participants; 1,890 trials",descriptive surface analysis
+Context×category saturated nominal comparator,NOT_INCLUDED,Not used in current claims,No active conclusion depends on it
+Personalization gate,PRIMARY_NOT_SUPPORTED,"53 participants; 2,225 trials",Evaluated against M3 comparator; gate failed for both outcomes

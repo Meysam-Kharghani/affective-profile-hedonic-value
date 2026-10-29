@@ -1,0 +1,7 @@
+item,count,details
+Participants targeted,53,sub-01..sub-53
+Context recovery criteria satisfied,45,Included in context-dependent analyses
+Direct 42-trigger recovery,35,Direct legal 42-trial sequence
+Unique structural recovery,10,Extra marker(s) accepted only when exactly one legal block-order sequence was compatible
+Excluded from context analyses,8,"sub-01, sub-09, sub-10, sub-11, sub-20, sub-22, sub-32, sub-53"
+Recovered context trials,1890,945 imagery + 945 video

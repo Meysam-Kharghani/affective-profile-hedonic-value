@@ -1,0 +1,9 @@
+item,status,basis
+Earlier nominal/category alignment,INVALIDATED,Raw behavioral row order had been treated as if it matched reordered stimulus/category order.
+Reconstructed stimulus/category mapping,VALIDATED,Participant-specific 21-item sequences applied in paired 3-trial blocks for sub-01..sub-53.
+sub-54,EXCLUDED,No participant-specific sequence was available to the label-reconstruction procedure; nominal labels were not assigned inferentially.
+One sub-01 liking value,COMPLETE_CASE_EXCLUDED,One trial with missing liking removed for both outcomes.
+Context recovery,VALIDATED_SUBSET,45/53 core participants: 35 direct + 10 unique structural recoveries from EDF trigger metadata and published block design.
+Unresolved context participants,EXCLUDED_FROM_CONTEXT_ANALYSES,"sub-01, sub-09, sub-10, sub-11, sub-20, sub-22, sub-32, sub-53"
+Context-dependent cohort,VALIDATED_BALANCED,"45 × 42 = 1,890 trials; 945 imagery + 945 video."
+Personalization comparison,EVALUATED,Evaluated against reconstructed LOPO M3_affective_nominal; gate not satisfied for either outcome.

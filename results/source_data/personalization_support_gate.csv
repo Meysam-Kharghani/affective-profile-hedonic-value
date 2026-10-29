@@ -1,0 +1,3 @@
+outcome,incremental_personalization_supported,gate
+valence,False,k20_and_k30: lower95_delta_MAE>0 AND pooled_delta_R2>0
+liking,False,k20_and_k30: lower95_delta_MAE>0 AND pooled_delta_R2>0

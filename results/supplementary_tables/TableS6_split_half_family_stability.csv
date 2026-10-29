@@ -1,0 +1,5 @@
+family,n_traits,n_stable_traits,stable_fraction,partially_stable_family,rule
+affect_hedonic_coupling,16,9,0.5625,True,at least half constituent traits have median Pearson r >= 0.50
+category_specific_valuation,14,5,0.35714285714285715,False,at least half constituent traits have median Pearson r >= 0.50
+dispersion,2,2,1.0,True,at least half constituent traits have median Pearson r >= 0.50
+global_context_contrast,2,0,0.0,False,at least half constituent traits have median Pearson r >= 0.50

@@ -1,0 +1,19 @@
+regime,outcome,model,model_interpretation,n,r2,mae
+Held-out stimulus,valence,M1_nominal,Emotion category only (context unresolved/constant),2225,0.4904256210336908,0.9806027545967996
+Held-out stimulus,valence,M2_affective,Eight-report affective profile,2225,0.6717445768766572,0.783652971353341
+Held-out stimulus,valence,M3_affective_nominal,Eight-report affective profile + emotion category,2225,0.6840245780114281,0.7619667921552941
+Held-out stimulus,liking,M1_nominal,Emotion category only (context unresolved/constant),2225,0.4634964976037213,1.0938386855914082
+Held-out stimulus,liking,M2_affective,Eight-report affective profile,2225,0.686414704553934,0.8221217108630439
+Held-out stimulus,liking,M3_affective_nominal,Eight-report affective profile + emotion category,2225,0.6883134265443114,0.8223586630192495
+Double-heldout participant+stimulus,liking,M1_nominal,Emotion category only (context unresolved/constant),2225,0.4574908740175354,1.0985021759710287
+Double-heldout participant+stimulus,liking,M2_affective,Eight-report affective profile,2225,0.6827216700152124,0.8255800980899214
+Double-heldout participant+stimulus,liking,M3_affective_nominal,Eight-report affective profile + emotion category,2225,0.6821300014988637,0.8281346064314613
+Double-heldout participant+stimulus,valence,M1_nominal,Emotion category only (context unresolved/constant),2225,0.4851168705104506,0.9834614914091888
+Double-heldout participant+stimulus,valence,M2_affective,Eight-report affective profile,2225,0.6659645998847192,0.7877003777517865
+Double-heldout participant+stimulus,valence,M3_affective_nominal,Eight-report affective profile + emotion category,2225,0.6740420790079247,0.771313900416408
+Within-person centered LOPO,liking,W1_nominal,Within-person: emotion category only,2225,0.4983901173192611,1.0326923139109685
+Within-person centered LOPO,liking,W2_within_affective,Within-person: centered affective profile,2225,0.7119071049999375,0.7744348962723067
+Within-person centered LOPO,liking,W3_within_affective_nominal,Within-person: centered affective profile + emotion category,2225,0.7143244612385233,0.7719938293272096
+Within-person centered LOPO,valence,W1_nominal,Within-person: emotion category only,2225,0.5234743966680471,0.9225642637263224
+Within-person centered LOPO,valence,W2_within_affective,Within-person: centered affective profile,2225,0.6916084085384643,0.7330686765289444
+Within-person centered LOPO,valence,W3_within_affective_nominal,Within-person: centered affective profile + emotion category,2225,0.6980710679202369,0.7216469392000704

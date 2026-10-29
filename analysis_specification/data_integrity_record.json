@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-29",
+  "issue": "The earlier behavioral analysis aligned raw rows to reordered nominal stimulus/category labels rather than to the randomized paired-block presentation order.",
+  "resolution": "Stimulus and category labels were reconstructed from participant-specific published sequences and the paired three-trial block design. Context-dependent analyses use a separately audited subset with context recovered from EDF annotations.",
+  "core_cohort": {
+    "participants": 53,
+    "complete_case_trials": 2225
+  },
+  "context_cohort": {
+    "participants": 45,
+    "trials": 1890,
+    "imagery_trials": 945,
+    "video_trials": 945
+  },
+  "context_recovery": {
+    "direct": 35,
+    "rating_based_context_inference": false,
+    "unique_structural_recovery": 10
+  },
+  "unresolved_context_participants": [
+    "sub-01",
+    "sub-09",
+    "sub-10",
+    "sub-11",
+    "sub-20",
+    "sub-22",
+    "sub-32",
+    "sub-53"
+  ],
+  "personalization_result": "The fixed incremental-personalization support rule was not satisfied for valence or liking.",
+  "analysis_not_included": "The context-by-category saturated nominal comparator is not used for any current conclusion."
+}

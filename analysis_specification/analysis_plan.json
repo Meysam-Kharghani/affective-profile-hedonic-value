@@ -1,0 +1,85 @@
+{
+  "dataset": {
+    "name": "EmoEEG-MC",
+    "openneuro_accession": "ds005540",
+    "stimulus_codes": 21,
+    "contexts": [
+      "imagery",
+      "video"
+    ],
+    "emotion_categories": [
+      "joy",
+      "inspiration",
+      "tenderness",
+      "fear",
+      "disgust",
+      "sadness",
+      "neutral"
+    ]
+  },
+  "core_analysis_cohort": {
+    "participants": 53,
+    "participants_range": "sub-01 through sub-53",
+    "labeled_trials_before_complete_case": 2226,
+    "complete_case_trials": 2225,
+    "complete_case_rule": "The single trial with missing liking is excluded for both outcomes so all core models use identical rows."
+  },
+  "context_analysis_cohort": {
+    "participants": 45,
+    "trials": 1890,
+    "imagery_trials": 945,
+    "video_trials": 945,
+    "context_source": "EDF annotation TypeIDs combined with the published paired three-trial block design",
+    "context_inference_from_ratings": false
+  },
+  "outcomes": [
+    "valence",
+    "liking"
+  ],
+  "affective_predictors": [
+    "joy",
+    "inspiration",
+    "tenderness",
+    "sadness",
+    "fear",
+    "disgust",
+    "arousal",
+    "familiarity"
+  ],
+  "models": {
+    "M0_intercept": "training-fold outcome mean",
+    "M1_nominal": "emotion category in the core cohort; context is constant where independently unresolved",
+    "M2_affective": "eight continuous affective predictors",
+    "M3_affective_nominal": "eight continuous affective predictors plus nominal predictors available for the analysis"
+  },
+  "primary_validation": "leave-one-participant-out",
+  "robustness_analyses": [
+    "leave-one-stimulus-out",
+    "simultaneous participant-stimulus holdout",
+    "participant mean-centering",
+    "bidirectional imagery-video transfer in the context-recovered cohort"
+  ],
+  "personalization": {
+    "calibration_trials": [
+      4,
+      8,
+      12,
+      16,
+      20,
+      30
+    ],
+    "repeats": 200,
+    "minimum_remaining_test_trials": 5,
+    "support_gate": "positive lower 95% CI for global-MAE minus personalized-MAE and positive pooled personalized-minus-global R2 at both k=20 and k=30"
+  },
+  "trait_stability": {
+    "repeats": 1000,
+    "stable_trait_descriptor": "median Pearson r >= 0.50",
+    "partially_stable_family": "at least half of constituent traits meet the stability descriptor"
+  },
+  "interpretation_boundaries": [
+    "same-trial psychometric reconstruction rather than prospective prediction",
+    "within-dataset validation rather than external validation",
+    "descriptive model-implied surfaces rather than causal effects"
+  ]
+}
